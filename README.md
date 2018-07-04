@@ -1,5 +1,8 @@
 # 网易云首页
-训练作品，使用es6、jQuery、scss写的网易云首页
+使用webpack搭建，使用es6、jQuery、scss编写，完成登录框（登录账号：studyOnline  密码：study.163.com
+）、轮播图、内容区tab切换、获取课程信息、换页、页面布局动态适应等功能。
+
+不足：因使用的webpack4版本对extract-text-webpack-plugin不支持，我没有完成css单独打包。
 
 ### 如何使用
 
