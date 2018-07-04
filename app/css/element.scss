@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@mixin flex($direction:column, $inline:block){
+	display: if($inline == block, flex, inline-flex);
+	flex-direction: $direction;
+	flex-wrap: wrap;
+}
+
+@mixin list($direction:column){
+	@include flex($direction);
+}
+
+@mixin bg-img($w:0,$h:0,$imgW:0,$imgH:0,$imgName:'../images/sprite.png'){
+	width: $w;
+	height: $h;
+	background: url($imgName) $imgW $imgH no-repeat;
+	display: inline-block;
+}
