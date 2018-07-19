@@ -9,7 +9,7 @@
 1. **下载**
 
 	```shell
-	https://github.com/CaraChen2690/Netease-Cloud-Classroom-Index.git
+	git clone https://github.com/CaraChen2690/Netease-Cloud-Classroom-Index.git
 
 2. **安装**
 
@@ -18,7 +18,6 @@
 	  ```shell
 	  cd Netease-Cloud-Classroom-Index
 	  npm install
-	  npm install webpack webpack-dev-server -g
 	  ```
 
 	- Mac
@@ -26,7 +25,6 @@
 	  ```shell
 	  cd Netease-Cloud-Classroom-Index
 	  npm install
-	  npm install webpack webpack-dev-server -g
 	  ```
 
 3. **使用**
